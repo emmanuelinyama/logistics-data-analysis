@@ -56,5 +56,8 @@ This project answers analytical questions such as:
 
 ![ERD](erd.png)
 ---
-
+- Identified total shipments handled per branch
+- Calculated total revenue generated
+- Detected unpaid invoices for financial monitoring
+- Analyzed shipment status distribution
 This project forms part of my journey toward becoming a Data Analyst.
