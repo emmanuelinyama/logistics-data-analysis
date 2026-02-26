@@ -61,3 +61,9 @@ This project answers analytical questions such as:
 - Detected unpaid invoices for financial monitoring
 - Analyzed shipment status distribution
 This project forms part of my journey toward becoming a Data Analyst.
+## 🚀 Future Improvements
+
+- Add data visualisation using Python (Matplotlib / Seaborn)
+- Implement dashboard using Power BI or Tableau
+- Optimise queries using indexing strategies
+- Deploy database to cloud environment
