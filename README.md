@@ -52,7 +52,9 @@ This project answers analytical questions such as:
 - Aggregation functions
 - Data summarisation
 - Business insight extraction
+## 🧩 Entity Relationship Diagram (ERD)
 
+![ERD](erd.png)
 ---
 
 This project forms part of my journey toward becoming a Data Analyst.
