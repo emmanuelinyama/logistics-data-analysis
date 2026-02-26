@@ -34,3 +34,21 @@ JOIN invoice i ON o.order_id = i.order_id
 GROUP BY c.Names
 ORDER BY total_spent DESC
 LIMIT 5;
+/* 4. Average Shipment Value */
+SELECT AVG(total_amount) AS average_invoice_value
+FROM invoice;
+
+
+/* 5. Shipments by Status */
+SELECT shipment_status,
+       COUNT(shipment_id) AS total_shipments
+FROM shipment
+GROUP BY shipment_status;
+
+
+/* 6. Monthly Revenue Trend */
+SELECT DATE_FORMAT(invoice_date, '%Y-%m') AS month,
+       SUM(total_amount) AS monthly_revenue
+FROM invoice
+GROUP BY DATE_FORMAT(invoice_date, '%Y-%m')
+ORDER BY month;
